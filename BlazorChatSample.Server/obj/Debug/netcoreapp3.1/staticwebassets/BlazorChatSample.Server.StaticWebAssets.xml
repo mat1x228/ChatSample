@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\sshab\Desktop\Projects\BlazorChatSample\BlazorChatSample.Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\sshab\Desktop\Projects\BlazorChatSample\BlazorChatSample.Client\bin\Debug\netstandard2.1\wwwroot\" />
+</StaticWebAssets>

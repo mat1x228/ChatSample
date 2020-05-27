@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/honning69/Desktop/BlazorChatSample/BlazorChatSample.Client/BlazorChatSample.Client.csproj": {}
+  },
+  "projects": {
+    "/Users/honning69/Desktop/BlazorChatSample/BlazorChatSample.Client/BlazorChatSample.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/honning69/Desktop/BlazorChatSample/BlazorChatSample.Client/BlazorChatSample.Client.csproj",
+        "projectName": "BlazorChatSample.Client",
+        "projectPath": "/Users/honning69/Desktop/BlazorChatSample/BlazorChatSample.Client/BlazorChatSample.Client.csproj",
+        "packagesPath": "/Users/honning69/.nuget/packages/",
+        "outputPath": "/Users/honning69/Desktop/BlazorChatSample/BlazorChatSample.Client/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/honning69/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/honning69/Desktop/BlazorChatSample/BlazorChatSample.Shared/BlazorChatSample.Shared.csproj": {
+                "projectPath": "/Users/honning69/Desktop/BlazorChatSample/BlazorChatSample.Shared/BlazorChatSample.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/honning69/Desktop/BlazorChatSample/BlazorChatSample.Shared/BlazorChatSample.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/honning69/Desktop/BlazorChatSample/BlazorChatSample.Shared/BlazorChatSample.Shared.csproj",
+        "projectName": "BlazorChatSample.Shared",
+        "projectPath": "/Users/honning69/Desktop/BlazorChatSample/BlazorChatSample.Shared/BlazorChatSample.Shared.csproj",
+        "packagesPath": "/Users/honning69/.nuget/packages/",
+        "outputPath": "/Users/honning69/Desktop/BlazorChatSample/BlazorChatSample.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/honning69/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
